@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/style.css/school-sign.css">
+  <link rel="stylesheet" href="school-sign.css">
 </head>
 <body>
   <div class="header">
         <div style="display:flex;">
-            <img class="logo" src="/image-video.folder/images (2).jpg">
+            <img class="logo" src="image-video.folder/images (2).jpg">
             <h2 style="color:white;">Lideta Catholic Cathedral School</h2>
         </div>
 
@@ -19,8 +19,8 @@
             <a href="school.html#ss">Academics</a>
             <a href="school.html#bb">Activities</a>
             <a href="school.html#ll">Contact</a>
-            <a style="margin-right:-22px;padding-top:12px;padding-bottom:12px;"class="xcb"href="school-login.html#oo">Login</a>
-            <a class="xcb"href="">Sign up</a>
+            <a style="margin-right:-22px;padding-top:12px;padding-bottom:12px;" class="xcb" href="school-login.html#oo">Login</a>
+            <a class="xcb" href="">Sign up</a>
         </div>
   </div>
 
@@ -28,11 +28,11 @@
     <h2 class="gmk">Create an <span>Account</span></h2>
     <p class="iop">Create your account to access your school portal and stay updated with announcements and resources.</p>
     <div class="bobo">
-        <form>
+        <form id="signupForm">
           <h2 class="oop">Create an Account</h2>
           <input type="text" name="name" placeholder="Enter your full name" required><br>
 
-          <input type="email" name="email" placeholder="Enter your school email"required><br>
+          <input type="email" name="email" placeholder="Enter your school email" required><br>
 
           <input type="text" name="username" placeholder="Username" required><br>
 
@@ -40,21 +40,18 @@
 
           <input type="password" name="pwd" id="confirmPassword" placeholder="Confirm password" required><br>
           <label>
-            <input type="checkbox"><font>I agree to the terms and conditions.</font><br>
+            <input type="checkbox"><span>I agree to the terms and conditions.</span><br>
           </label>
           
-
           <button class="button1" type="submit">Create Account</button>
 
           <p>
-            Already have an account? <a href="."> Sign in</a>here.
+            Already have an account? <a href="school-login.html"> Sign in</a> here.
           </p>
         </form>
     </div>
     
   </div>
-
-
 
   <script>
     document.getElementById("signupForm").addEventListener("submit", function(event) {
@@ -64,8 +61,7 @@
         alert("Passwords do not match!");
         event.preventDefault();
       }
-
-      });
+    });
   </script>
 </body>
 </html>
