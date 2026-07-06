@@ -1,0 +1,120 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Arial;
+    padding-top:130px;
+    background-image:url('/image-video.folder/pexels-aronvisuals-1743165.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.table-of-content{
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow:0px 0px 0px 0.3px black;
+    border-radius:20px;
+    padding-bottom:20px;
+}
+.gvb{
+    list-style:none;
+    cursor:pointer;
+    transition:all 0.5;
+    font-size:17px;
+    transition:all 0.3s
+   
+}
+.gvb::before{
+    content:'';
+    background-color:black;
+    width:35px;
+    height:17px;
+    display:inline-block;
+    border-radius:7px 3px 7px 3px;
+    border-style:solid;
+    border-color:#B57EDC;
+    margin-left:10px;
+    margin-right:7px;
+    transition:all 0.3s;
+    
+}
+.gvb:hover::before{
+    transform:scale(1.2);
+}
+.gvb:hover{
+   font-size:19px;
+}
+.kmo{
+    text-decoration:none;
+    padding-left:38px;
+    color:#B57EDC;
+    display:block;
+    padding-top:7px;
+    padding-bottom:3px;
+    cursor:pointer;
+}
+.ncc{
+    list-style:none;
+    padding-left:38px;
+    cursor:pointer;
+}
+.kfk{
+    line-height:30px;
+}
+.kfkk{
+    line-height:30px;
+}
+.kfk a{
+    display:block;
+    padding-left:60px;
+    text-decoration:none;
+    color:#98FF98;
+    line-height:30px;
+    cursor:pointer;
+    transition:all 0.3s;
+
+}
+.kfk:hover a{
+    transform: translate(20px);
+}
+.kfkk a{
+    color:#CCFFDD;
+    display:block;
+    padding-left:60px;
+    text-decoration:none;
+    line-height:30px;
+    cursor:pointer;
+    transition:all 0.3s;
+}
+.kfkk:hover a{
+    transform: translate(20px);
+}
+
+.details2{
+    list-style:none;
+}
+.hnj{
+    list-style:none;
+    cursor:pointer;
+     transition:all 0.5;
+     font-size:17px;
+     transition:all 0.3s
+}
+.hnj::before{
+    content:'';
+    background-color:black;
+    width:35px;
+    height:17px;
+    display:inline-block;
+    border-radius:7px 3px 7px 3px;
+    border-style:solid;
+    border-color:#40E0D0;
+    margin-left:10px;
+    margin-right:7px;
+    transition:all 0.3s;
+}
+.hnj:hover::before{
+    transform:scale(1.2);
+}
+.hnj:hover{
+   font-size:19px;
+}

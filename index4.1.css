@@ -1,0 +1,107 @@
+body{
+    background-position:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image:url('https://indiaforensic.com/certifications/wp-content/uploads/2017/01/agriculture.jpg')
+}
+
+
+.tabel-of-content{
+    width:700px;
+    margin-left:300px;
+    margin-top:190px;
+    margin-bottom:80px;
+    box-shadow:10px 14px  100px orange;
+    border-radius:60px 70px 40px 40px;
+    border-color:orange;
+    border-style:solid;
+    border-width:1px;
+    background-color: rgba(12, 45, 7, 0.8); 
+}
+.details1{
+    margin-bottom:18px;
+}
+
+.details1-a{
+    color:red;
+    list-style: none; 
+    cursor:pointer;
+    padding-bottom:28px;
+}
+.details1-a::before{
+    content:"";
+    width:30px;
+    height:10px;
+    background-color:red    ;
+    display:inline-block;
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px
+}
+.details2{
+    margin-bottom:10px;
+}
+.details2 a{
+    display:block;
+    text-decoration:none;
+    margin-left:60px;
+    color:aqua;
+    font-family:Abyssinica SIL;
+    margin-bottom:10px;
+    font-size:17px;
+}
+.summary2{
+    color:aqua;
+    list-style: none; 
+    cursor:pointer;
+    padding-bottom:10px;
+}
+.summary2::before{
+    content:"";
+    width:30px;
+    height:10px;
+    background-color:aqua;
+    display:inline-block;
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px
+}
+.details3{
+    margin-top:0px;
+    padding-bottom:20px;
+}
+.details3 a{
+    display:block;
+    text-decoration:none;
+    margin-left:60px;
+    color:orange;
+    font-family:Abyssinica SIL;
+    margin-bottom:10px;
+    font-size:17px;
+}
+.summary3{
+    color:orange;
+    list-style: none; 
+    cursor:pointer;
+    padding-bottom:10px;
+}
+.summary3::before{
+    content:"";
+    width:30px;
+    height:10px;
+    background-color:orange;
+    display:inline-block;
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px
+}
+.contents{
+    color:white;
+    text-decoration: underline white;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+}
+.details2 [open]{
+    transition:all 0.5s;
+}
